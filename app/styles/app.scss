@@ -1,3 +1,7 @@
 p {
 	color: purple
 }
+
+@import "base/variables";
+
+@import "components/navigation";
