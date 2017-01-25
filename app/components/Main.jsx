@@ -1,14 +1,11 @@
 var React = require('react');
 var Navigation = require('Navigation');
-var Clock = require('Clock');
-var Controls = require('Controls');
 
 var Main = (props) => {
 	return (
 		<div>
 			<div>
-				<Navigation/>
-				<Clock/>	
+				<Navigation/>	
 				<div>
 					<p>Main.jsx rendered</p>
 					{props.children}
