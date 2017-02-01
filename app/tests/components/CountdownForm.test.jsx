@@ -35,3 +35,5 @@ describe ('CountdownForm', () => {
 		expect(spy).toHaveBeenCalledWith(0);
 	});
 }) ;
+
+module.exports = CountdownForm;
