@@ -2,8 +2,13 @@ p {
 	color: purple
 }
 
-@import "base/variables";
+// foundation
+@import "base/foundation-settings";
+@import "foundation";
+@include foundation-everything;
 
+// Components
+@import "base/variables";
 @import "components/navigation";
 @import "components/clock";
 @import "components/controls";
