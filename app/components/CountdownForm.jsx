@@ -21,7 +21,7 @@ var CountdownForm = React.createClass({
 		        		<button className="button expanded">Start</button>
 		        	</form>
 		        </div>
-		        );
+		);
 	}
 });
 
